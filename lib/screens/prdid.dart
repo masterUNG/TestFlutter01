@@ -19,13 +19,15 @@ class _prdIDState extends State<prdID> {
           color: Colors.green.shade100,
         ),
         padding: EdgeInsets.all(10.0),
-        child: Column(
-          children: [
-            prdidText(),
-            prddsText(),
-            prdBtn(),
-            prdList(),
-          ],
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              prdidText(),
+              prddsText(),
+              prdBtn(),
+              prdList(),
+            ],
+          ),
         ),
       ),
     );
